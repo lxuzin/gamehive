@@ -114,7 +114,7 @@ npm run dev
 ## 배포
 
 이 프로젝트는 GitHub Pages를 통해 배포되었습니다.
-- 배포 URL: [https://yourusername.github.io/gamehive](https://yourusername.github.io/gamehive)
+- 배포 URL: [https://lxuzin.github.io/gamehive](https://lxuzin.github.io/gamehive)
 
 ## 개선 사항 및 향후 계획
 
