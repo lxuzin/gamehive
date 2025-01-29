@@ -138,6 +138,6 @@ npm run dev
 
 ## 제작자
 
-홍길동 - [이메일](mailto:your.email@example.com)
+진수진 - [이메일](sujin7048@naver.com)
 
-프로젝트 링크: [https://github.com/yourusername/gamehive](https://github.com/yourusername/gamehive)
+프로젝트 링크: [https://github.com/lxuzin/gamehive](https://github.com/lxuzin/gamehive)
