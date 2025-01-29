@@ -3,27 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GameHive</title>
+    <title>GameHive - MMORPG Community Platform</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100">
-    <div class="container mx-auto px-4 py-8">
-        <h1 class="text-4xl font-bold text-center mb-8">GameHive</h1>
-        <div class="bg-white rounded-lg shadow-lg p-6">
-            <h2 class="text-2xl font-semibold mb-4">Welcome to GameHive</h2>
-            <p class="text-gray-600 mb-4">
-                GameHive is a community platform for MMORPG gamers. We're currently working on bringing you an amazing experience.
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">GameHive</a>
+            <div class="nav-links">
+                <a href="#games" class="nav-link">Games</a>
+                <a href="#community" class="nav-link">Community</a>
+                <a href="#characters" class="nav-link">Characters</a>
+                <a href="#chat" class="nav-link">Chat</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container">
+        <div class="card text-center py-12">
+            <h1 class="text-4xl font-bold mb-4">Welcome to GameHive</h1>
+            <p class="text-xl text-gray-600 mb-8">
+                Your ultimate MMORPG community platform
             </p>
-            <div class="space-y-4">
-                <h3 class="text-xl font-semibold">Features Coming Soon:</h3>
-                <ul class="list-disc list-inside text-gray-600">
-                    <li>Game Information Board</li>
-                    <li>User Community</li>
-                    <li>Character Information</li>
-                    <li>Real-time Chat</li>
-                </ul>
+            <button class="button button-primary">Join Community</button>
+        </div>
+
+        <!-- Features Grid -->
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="ri-gamepad-line feature-icon"></i>
+                <h3 class="card-title">Game Information Board</h3>
+                <p class="text-gray-600">
+                    Stay updated with the latest game news, guides, and strategies.
+                </p>
+            </div>
+            <div class="feature-card">
+                <i class="ri-team-line feature-icon"></i>
+                <h3 class="card-title">User Community</h3>
+                <p class="text-gray-600">
+                    Connect with fellow gamers, share experiences, and make friends.
+                </p>
+            </div>
+            <div class="feature-card">
+                <i class="ri-user-star-line feature-icon"></i>
+                <h3 class="card-title">Character Information</h3>
+                <p class="text-gray-600">
+                    Track your character progress and showcase your achievements.
+                </p>
+            </div>
+            <div class="feature-card">
+                <i class="ri-message-3-line feature-icon"></i>
+                <h3 class="card-title">Real-time Chat</h3>
+                <p class="text-gray-600">
+                    Chat with other players in real-time and coordinate your gaming sessions.
+                </p>
             </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-12 py-8">
+        <div class="container text-center text-gray-600">
+            <p>&copy; 2025 GameHive. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
