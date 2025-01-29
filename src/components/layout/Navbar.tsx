@@ -18,25 +18,25 @@ export default function Navbar() {
                   게시판
                 </Link>
                 <Link
-                  href="/games.html"
+                  href="/games"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   게임 정보
                 </Link>
                 <Link
-                  href="/characters.html"
+                  href="/characters"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   캐릭터 정보
                 </Link>
                 <Link
-                  href="/chat.html"
+                  href="/chat"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   채팅
                 </Link>
                 <Link
-                  href="/admin.html"
+                  href="/admin"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   관리자
