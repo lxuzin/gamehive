@@ -4,8 +4,10 @@ const nextConfig = {
   basePath: '/gamehive',
   images: {
     unoptimized: true,
+    loader: 'custom',
+    loaderFile: './image-loader.js',
   },
-  reactStrictMode: true,
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
