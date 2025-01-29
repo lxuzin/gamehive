@@ -1,0 +1,38 @@
+{
+  "characters": [
+    {
+      "id": "1",
+      "name": "불꽃전사",
+      "level": 50,
+      "class": "전사",
+      "inventory": [
+        {
+          "id": "item1",
+          "name": "불꽃의 대검",
+          "type": "무기",
+          "rarity": "레어",
+          "stats": {
+            "attack": 100,
+            "speed": 10
+          }
+        },
+        {
+          "id": "item2",
+          "name": "용사의 갑옷",
+          "type": "방어구",
+          "rarity": "일반",
+          "stats": {
+            "defense": 50
+          }
+        }
+      ],
+      "stats": {
+        "hp": 1000,
+        "mp": 300,
+        "attack": 200,
+        "defense": 150,
+        "speed": 80
+      }
+    }
+  ]
+}
