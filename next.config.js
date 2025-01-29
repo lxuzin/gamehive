@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/gamehive',
   images: {
     unoptimized: true,
   },
-  basePath: '/gamehive',
-  assetPrefix: '/gamehive',
+  reactStrictMode: true,
 }
 
 module.exports = nextConfig
