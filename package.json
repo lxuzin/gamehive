@@ -2,6 +2,7 @@
   "name": "gamehive",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lxuzin.github.io/gamehive",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
