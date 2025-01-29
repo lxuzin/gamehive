@@ -18,6 +18,12 @@ export default function Navbar() {
                   게시판
                 </Link>
                 <Link
+                  href="/games"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  게임 정보
+                </Link>
+                <Link
                   href="/characters"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
